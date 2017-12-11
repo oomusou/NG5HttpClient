@@ -1,0 +1,17 @@
+{
+  "title": "Post",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "number"
+    },
+    "title": {
+      "type": "string"
+    },
+    "author": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false,
+  "required": ["title", "author"]
+}
